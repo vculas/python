@@ -26,7 +26,7 @@ while 1:
 
     print("A number secret between 1-100 has been chosen."
         " Your hint is %d. Respond with 'high', 'low', 'jackpot' or 'q'"
-        "to quit." % (hint))
+        " to quit." % (hint))
 
     guess = input("\nYour Guess: ")
 

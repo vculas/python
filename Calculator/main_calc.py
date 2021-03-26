@@ -9,15 +9,12 @@ import functions
 print("VINA'S CALCULATOR\n")
 
 eq = input("Input Your Equation:\n")
-print("%s" % eq)
+#print("%s" % eq)
 parsed = eq.split()
 
-number = div(6, 3)
-print(number)
-#sum = int(parsed[2])
-
-#sum += 4
-
-#print(sum)
+if (parsed[0].isdigit()):
+    print("Is a digit")
+if (parsed[0].isalpha()):
+    print("Is a letter")
 
 
